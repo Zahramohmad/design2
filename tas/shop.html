@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\bootstrap.css.map">
+    <link rel="stylesheet" href="css\shop.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+    rel="stylesheet"/> <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css\all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+<!-- start nav -->
+<header>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="imgs\Zahra store.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sign.html">sign in</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            catogries
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">laptop</a></li>
+              <li><a class="dropdown-item" href="#">phone</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">electonic</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <div class="wrapper">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Type To Search..">
+            <div class="autocom-box">
+            
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>
+          <div>
+            <i class='bx bxs-shopping-bags' id="carticon"></i>
+            </div>
+                    <div class="cart">
+                      <h3 class="font">Your Cart</h3>
+                              <!-- content cart -->
+                        <div class="cart-content">
+                          <div class="cat-box">
+                          <img src="imgs\iPad-Pro-with-Keyboard-Mockup-removebg-preview.png" width="120px" alt="">
+                          <div class="detail-box">
+                          <div class="card-title">iPad Pro</div>
+                            <div class="cart-price">$1000</div>
+                            <input type="number" value="1" class="cart-quantity">
+                          </div>
+                          <!-- remove cart -->
+                          <i class='bx bxs-trash remove-cart ' ></i>
+                      </div>
+                      </div>
+                      <!-- total -->
+                      <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$1000</div>
+                      </div>
+                      <!-- btn-buy -->
+                      <a href="sign.html"><button type="button" class="btn-buy">Buy Now</button></a>
+                      <!-- close cart -->
+                      <i class='bx bx-x-circle' id="close-cart"></i>
+                    </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- end nav -->
+
+<!-- start slid1-->
+<div class="  cl-6 slid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src=" https://media.btech.com/media/homecontent/banner/d/e/dec_cat_mobiles__web-banner__2368x800_en.png" width="200px" class="d-block " alt="...">
+          </div>
+          <div class="carousel-item">
+          <img src=" https://media.btech.com/media/homecontent/banner/d/e/dec_cat_mobiles__web-banner__2368x800_en.png"width="200px" class="d-block " alt="...">
+          
+          </div>
+          <div class="carousel-item">
+          <img src=" https://media.btech.com/media/homecontent/banner/d/e/dec_cat_mobiles__web-banner__2368x800_en.png" width="200px"class="d-block" alt="...">
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<!-- end slid 1-->
+<br>
+<center><h3 class="rty" style="color:#fff ;">What's new ?</h3></center>
+<br>
+<!-- start slid2-->
+      <section class="shop container ">
+                <div class="prouct-box ">
+                <ul class="thump">
+                  <li class="www" onmouseover="changeImageSrc('black.png')"><img src="black.png"  alt=""></li>
+                  <li class="wwwo" onmouseover="changeImageSrc('wight.webp')"><img src="wight.webp" alt=""></li>
+                  <li class="wwe" onmouseover="changeImageSrc('gray.png')"><img src="gray.png" alt=""></li>
+                </ul>
+                <div class="img-box">
+                  <h3>Iphone 14 Pro Max</h3>
+                  <img src="black.png" class="phonee" width="70%" alt="">
+                  <span>$2000</span>
+                  <button class="btn add-cart"> Buy Now  </button>
+                  
+                </div>
+        </section>
+
+<!-- end slid 2-->
+<center><hr class="hrr"  ></center>
+<br>
+<center><h3 class="rty" style="color:#fff ;">Our Products</h3></center>
+<br>
+        <section class="container slid3  ">
+          <div class="shop-contat container">
+                      <!--box1  -->
+                      <div class="gallery ">
+                        <img src="imgs\iPad-Pro-with-Keyboard-Mockup-removebg-preview.png" class="mam" width="250px" alt="Cinque Terre" >
+                      <span class="titles">Ibad Pro 2020</span>
+                      <div class="price">
+                          <span class="pricess">$1000</span>
+                          <i class='bx bxs-shopping-bags add-cart'></i>
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="gallery ">
+                        <img src="imgs\image-removebg-preview.png" width="270px" class="mam" alt="Forest" >
+                        <span class="titles">Ibad 8</span>
+                        <div class="price">
+                            <span class="pricess">$800</span>
+                            <i class='bx bxs-shopping-bags add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    
+                    <div class="gallery">
+                        <img src="imgs\1001160_original-removebg-preview.png" width="300px"class="mam" alt="Northern Lights" >
+                        <span class="titles">Maicrosoft bad</span>
+                        <div class="price">
+                            <span class="pricess">$500</span>
+                            <i class='bx bxs-shopping-bags add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    <div class="gallery  ">
+                        <img src="imgs\Huawei-MatePad-10.8-photo-2-removebg-preview.png" width="300px" class="mam"alt="Northern Lights" >
+                        <span class="titles">Huawei MatePad</span>
+                        <div class="price">
+                            <span class="pricess">$300</span>
+                            <i class='bx bxs-shopping-bags  add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    
+                    
+                    
+          </div>
+          <div class="shop-contat container">
+                      <!--box1  -->
+                      <div class="gallery ">
+                        <img src="imgs\images__1_-removebg-preview.png" class="mam" width="210px" alt="Cinque Terre" >
+                      <span class="titles">samsong altra</span>
+                      <div class="price">
+                          <span class="pricess">$100</span>
+                          <i class='bx bxs-shopping-bags add-cart'></i>
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="gallery ">
+                        <img src="imgs\images__2_-removebg-preview.png" width="240px" class="mam" alt="Forest" >
+                        <span class="titles">Ultra2023</span>
+                        <div class="price">
+                            <span class="pricess">$100</span>
+                            <i class='bx bxs-shopping-bags add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    
+                    <div class="gallery">
+                        <img src="imgs\images-removebg-preview.png" width="170px"class="mam" alt="Northern Lights" >
+                        <span class="titles">Ultra2020</span>
+                        <div class="price">
+                            <span class="pricess">$100</span>
+                            <i class='bx bxs-shopping-bags add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    <div class="gallery  ">
+                        <img src="gray.png" width="178px" class="mam"alt="Northern Lights" >
+                        <span class="titles">Iphone13</span>
+                        <div class="price">
+                            <span class="pricess">$300</span>
+                            <i class='bx bxs-shopping-bags  add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    
+                    
+                    
+          </div>
+          <div class="shop-contat container">
+                      <!--box1  -->
+                      <div class="gallery ">
+                        <img src="imgs\418xOOpP3sL-removebg-preview.png" class="mam" width="225px" alt="Cinque Terre" >
+                      <span class="titles">Labtop</span>
+                      <div class="price">
+                          <span class="pricess">$2000</span>
+                          <i class='bx bxs-shopping-bags add-cart'></i>
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="gallery ">
+                        <img src="imgs\Series-7-mobile-PC-600x473-removebg-preview.png" width="225px" class="mam" alt="Forest" >
+                        <span class="titles">Labtop</span>
+                        <div class="price">
+                            <span class="pricess">$8000</span>
+                            <i class='bx bxs-shopping-bags add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    
+                    <div class="gallery">
+                        <img src="imgs\samsong-removebg-preview.png" width="260px"class="mam" alt="Northern Lights" >
+                        <span class="titles">Labtop</span>
+                        <div class="price">
+                            <span class="pricess">$5000</span>
+                            <i class='bx bxs-shopping-bags add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    <div class="gallery  ">
+                        <img src="imgs\2017-08-01_092148-removebg-preview (1).png" width="200px" class="mam"alt="Northern Lights" >
+                        <span class="titles">Labtop</span>
+                        <div class="price">
+                            <span class="pricess">$3000</span>
+                            <i class='bx bxs-shopping-bags  add-cart'></i>
+                        </div>
+                      
+                    </div>
+                    
+                    
+                    
+          </div>
+        </section>
+<br>
+<center><hr class="hrr"></center>
+<br>
+<br>
+<!-- footer -->
+        <footer class=" ">
+          <div class="div-footer">
+          <ul class="font-foot">
+          <li>cash boo</li>
+          <li>payments</li>
+          <li>dilavrey</li>
+          <li>taxs&fon</li>
+          </ul>
+        </div>
+          <div class="div-footer">
+          <ul class="font-foot">
+          <li>cash boor</li>
+          <li>payments</li>
+          <li>dilavrey</li>
+          
+          </ul>
+        </div>
+          <div class="div-footer">
+          <ul class="font-foot">
+          <li>cash boo</li>
+          <li>payments</li>
+          <li>dilavrey</li>
+          </ul>
+        </div>
+          <div class="div-footer">
+          <ul class="font-foot flex">
+          <li><h4>Follow Us</h></li>
+          <a href="#"><li><i class='bx bxl-instagram foot-icon'></i></li></a>
+          <a href="#"><li><i class='bx bxl-facebook-square foot-icon'></i></li></a>
+          <a href="#"><li><i class='bx bxl-whatsapp foot-icon' ></i></li></a>
+          </ul>
+        </div>
+        </footer>
+      <script src="js\resersh.js"></script>
+        <script src="js\bootstrap.bundle.min.js"></script>
+     <script src="js\shop.js"></script>
+    
+</body>
+</html>
